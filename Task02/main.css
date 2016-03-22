@@ -113,6 +113,26 @@ figure img{
 .form table{
 	padding:10px 20px;
 }
+.form ol{
+	display: block;
+	padding: 12px 40px;
+}
+.form table{
+	width:100%;
+}
+.form table,th,td{
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+	text-align: left;
+
+}
+.form th{
+	background-color: #333333;
+	color: white;
+}
+.form .total{
+	background-color: #CCCCCC;
+}
 aside{
 	margin: 18px 40px;
 	padding:40px 20px;
@@ -120,15 +140,34 @@ aside{
 	display: block；
 	box-shadow: 2px 2px 2px #aaa;
 }
+aside h1{
+	text-indent: 12px;
+	border-left: 4px solid #CCCCCC;
+
+}
+aside tr
+{
+	border: none;
+}
 footer{
 	height: 60px;
 	background-color: #333333;
 }
 footer span{
 	display: block;
+	font-size: 10px;
 	color: #FFFFFF;
 	width:100%;
 	text-align: center;
 	line-height: 60px;
 
+
+}
+#submit{
+	width: 100%;
+	background-color: #3355D0;
+	height: 30px;
+	border-radius: 10px;
+	text-align: center;
+	color: #FFFFFF;
 }
