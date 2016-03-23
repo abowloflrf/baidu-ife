@@ -1,0 +1,33 @@
+div{
+    display: block;
+}
+.back{
+    height: 200px;
+    width: 400px;
+    background-color: #ccc;
+    overflow: hidden;
+    position: absolute;
+    top:50%;
+    right: 50%;
+    margin-top: -100px;
+    margin-right: -200px;
+}
+.corner1{
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    background-color: #fc0;
+    float:left;
+    margin:-50px;
+}
+.corner2{
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    background-color: #fc0;
+    position: absolute;
+    top:100%;
+    left:100%;
+    margin-top:-50px;
+    margin-left: -50px;
+}
